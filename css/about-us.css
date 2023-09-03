@@ -1,0 +1,77 @@
+/*Company Review Section*/
+.review-body{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  width: 60%;
+  max-width: 70%;
+  margin: auto;
+  text-align:start;
+  padding-bottom: 20px;
+}
+.review-header{
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  text-align:start;
+}
+
+.contact-mission-vision{
+  background-color: rgb(4, 126, 0);
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  padding: 50px auto auto 50px;
+  margin: 40px;
+}
+.core-values{
+  display: flex;
+  flex-direction: column;
+  width:60%;
+  padding: auto;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 40px;;
+
+}
+.core-values-header{
+text-align:start;
+text-decoration: underline;
+font-size: 1.2rem;
+font-weight:bold;
+margin-bottom: 0.5em;
+}
+.our-strength{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    padding: auto;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px
+}
+.our-strength-header{
+    text-align:start;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight:bold;
+    margin-bottom: 0.5em;
+}
+.products{
+  display: flex;
+  flex-direction: column;
+  width:60%;
+  padding: auto;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.products-header{
+  text-align:start;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-weight:bold;
+  margin-bottom: 0.5em;
+}
+
