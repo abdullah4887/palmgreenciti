@@ -3486,3 +3486,28 @@ ol {
 		font-size: 24px;
 	}
 }
+/* Added by Abdullah*/
+.service-details{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 150px;
+}
+.service-list {
+	margin-bottom: 40px;
+}
+.service-list ::marker{
+	font-weight: bold;
+}
+.service-contact-btn  {
+	font-weight: bold;
+	border:solid white;
+	 padding:10px; 
+	 margin-top: 40px;
+	 background-color: green;
+	 color:white;
+}
+.service-contact-btn > a {
+	color:white;
+}
