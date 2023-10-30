@@ -417,6 +417,7 @@ ol {
 
 .header__menu {
 	padding: 24px 0;
+	width: 800px;
 }
 
 .header__menu ul li {
@@ -3512,4 +3513,15 @@ ol {
 }
 .service-contact-btn > a {
 	color:white;
+}
+.team-image-cont{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+.team-image{
+	height: 60%;
+	width: 60%;
+	align-self: center;
 }
